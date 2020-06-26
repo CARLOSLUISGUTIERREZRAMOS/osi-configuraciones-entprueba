@@ -19,8 +19,8 @@ class PDF extends baseFpdf
     public $razonsocial;    
     public $direccion;    
     public $telefono;   
-    // public $pathImg =  'C:\\xampp7.3\\htdocs\\apiosi\\public\\comprobantes\\';
-    public $pathImg =  '/home/centromedico/public_html/apiosi/public/comprobantes/';
+    public $pathImg =  'C:\\xampp\\htdocs\\api\\public\\comprobantes\\';
+    // public $pathImg =  '/home/centromedico/public_html/apiosi/public/comprobantes/';
     // public $pathImg =  '/home/ositest/public_html/apiosi/public/comprobantes/';
 
     function Footer() 

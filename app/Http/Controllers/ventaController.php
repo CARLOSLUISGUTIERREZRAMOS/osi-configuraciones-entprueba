@@ -27,8 +27,8 @@ use App\Http\Controllers\Pdfs\invoiController;
 
 class ventaController extends Controller {
     
-    // public $pathImg =  'C:\\xampp7.3\\htdocs\\apiosi\\public\\comprobantes\\';
-    public $pathImg =  '/home/centromedico/public_html/apiosi/public/comprobantes/';
+    public $pathImg =  'C:\\xampp\\htdocs\\api\\public\\comprobantes\\';
+    // public $pathImg =  '/home/centromedico/public_html/apiosi/public/comprobantes/';
     // public $pathImg =  '/home/ositest/public_html/apiosi/public/comprobantes/';
     
     public $temporal;
@@ -2500,7 +2500,7 @@ class ventaController extends Controller {
                 'Content-Type: application/json'
             );
 
-            if (true) {
+            if (false) {
                 $urlEmi = 'https://www.escondatagate.net/wsParser_2_1/rest/parserWS';
                 $urlQR  = 'https://www.escondatagate.net/wsBackend/clients/getPdfQRCode';
                 $urlXml = 'https://www.escondatagate.net/wsBackend/clients/getDocumentXML';

@@ -2538,8 +2538,8 @@ class citamedicaController extends Controller
         }
 
         // CULQI
-        // $SECRET_KEY = "sk_test_3T3ZESYvMPdseTTj";
-        $SECRET_KEY = "sk_live_MfN4PW6PxdzVJm3y"; 
+        $SECRET_KEY = "sk_test_3T3ZESYvMPdseTTj";
+        // $SECRET_KEY = "sk_live_MfN4PW6PxdzVJm3y"; 
         $culqi = new Culqi(array('api_key' => $SECRET_KEY));
 
         // Crear Cargo a tarjeta por token
@@ -2763,8 +2763,8 @@ class citamedicaController extends Controller
         $orderid = $documentoserie->identidad .'_'. $documentoserie->serie . '-' .$docnumero;
 
         // CULQI
-        // $SECRET_KEY = "sk_test_3T3ZESYvMPdseTTj";
-        $SECRET_KEY = "sk_live_MfN4PW6PxdzVJm3y"; 
+        $SECRET_KEY = "sk_test_3T3ZESYvMPdseTTj"; // local
+        // $SECRET_KEY = "sk_live_MfN4PW6PxdzVJm3y";  //produccion
         $culqi = new Culqi(array('api_key' => $SECRET_KEY));
 
         // Crear Cargo a tarjeta por token 
