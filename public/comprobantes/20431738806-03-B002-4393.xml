@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cacadd="urn:e-billing:aggregates" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cbcadd="urn:e-billing:basics" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:extadd="urn:e-billing:extension" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+    <ext:UBLExtensions>
+        <ext:UBLExtension>
+            <ext:ExtensionContent>
+                <cacadd:ExtraParameters xmlns:sac="urn:sunat.names.specification.ubl_2_0.2_0.peru:schema:xsd:SunatAggregateComponents-1">
+                    <cbcadd:extra name="Paciente"><![CDATA[Gutiérrez Ramos, Carlos Luis]]></cbcadd:extra>
+                </cacadd:ExtraParameters>
+            </ext:ExtensionContent>
+        </ext:UBLExtension>
+        <ext:UBLExtension>
+            <ext:ExtensionContent><Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="SIGN_20431738806-03-B002-4393"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>JOFtCW0qWVE5b5VYzF5aP1cc8XI=</DigestValue></Reference></SignedInfo><SignatureValue>MQMiaU2r07Lq+RprcbIZ91vXBC2bxMUX4t8WUGzkbBawXweOLLXlzLZWgyaJ8vwO+gjPCuOimHpwrDyclHtnEmKJd/u8UXDRrV9UOfwJlaDYGg0a8zQUGbBC5XvPUY8PQvsUAJMfOJdLpXgs6rA9nN320Xq9TYTaycDYah+3K6iqDA72jfuIWyhkvlYM3EDF2+n44FL4uZt/bql/mhuVZNjFmXDTG8EZhv+SmhION1OJSx6Zttc87ig4ACji0nzNdrM0jJMMlGLPZgXFRgt2vsmTGBn26Hl3H6RQLUv08h0VPciNlguJNcWH6lo+flYU8K75Uwrd4Nr6RrVAUGzPaQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFXzCCBEegAwIBAgIIK7dsJui+R8AwDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UEAwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5QRTELMAkGA1UEBhMCUEUwHhcNMTkwODA4MjEzNDUxWhcNMjAwODA3MjEzNDUxWjCCATYxRDBCBgNVBAkMO0FWLiBFTCBERVJCWSBOUk8uIDA1NSBJTlQuIDYwMyBVUkIuIExJTUEgUE9MTyBBTkQgSFVOVCBDTFVCMSgwJgYJKoZIhvcNAQkBFhlpYWxtYXpsaW5vc0Blc2NvbmNvcnAuY29tMSowKAYDVQQDDCFNQVJJQSBERUwgVkFMTEUgSU5EUklBR08gTUFSVElORVoxEjAQBgNVBAUTCTAwMTEyMDAwMDEUMBIGA1UECwwLMjA1NTcxMDM5MjAxUjBQBgNVBAoMSUVTQ09OVEVDSCBERUwgUEVSVSBTT0NJRURBRCBBTk9OSU1BIENFUlJBREEgIC0gIEVTQ09OVEVDSCBERUwgUEVSVSBTLkEuQy4xDTALBgNVBAcMBExJTUExCzAJBgNVBAYTAlBFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1h4RNyYjUpXrIz5TvlxGJ/lE0R9COX5b9RIGtuXD6tuXtrvHFt8AgWpPPCnyMqkLML4v2yOp/seRTmNbvEyiQUvf9x0idc76dGxjQjYBXRgftFq5Vgxsf2if4VJ8FrK7dwxg80KmhGtawyuBXwMhAkXeiWvXOlpR1HGZ0M/jhHS2VYpHLfCAoYtdid6Q5d9B5iB0GI0Z+dAMCEreBzvsfvnMmL5L5Bsyxay4qaZ4qdmyFQ31HmkM2lvCmnjtZbLz3wxZYR8BnwFI4Yj3nD8x0+6PQ+oS8gHXSYmQ5/fTZ08WWgeC57WyqLGEHuWDDml0UhRj0NyDLzkrjKXGhDlZ/QIDAQABo4IBXTCCAVkwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRdiFut62X7/mii5NlvPVdyou8rmTAwBggrBgEFBQcBAQQkMCIwIAYIKwYBBQUHMAGGFGh0dHA6Ly9vY3NwLmxsYW1hLnBlMCQGA1UdEQQdMBuBGWlhbG1hemxpbm9zQGVzY29uY29ycC5jb20wRgYDVR0gBD8wPTA7Bg0rBgEEAYOXdwABAAIBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vbGxhbWEucGUvcmVwb3NpdG9yeS8wHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9jcmwubGxhbWEucGUvbGxhbWFwZXN0YW5kYXJkY2EuY3JsMB0GA1UdDgQWBBShw8ldd3/tNKNTrTwBt3IdVOfIxzAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBABcCVfIDdiszi6W/EiuSvGDgk5okMdzPnylO8f9J5fLafcxbba5yToX044KyQ+2jZ9PNX7Kye2Zx37SemjPeFzQFGxeK/cHM1nPPLcqcB1MW/k6V1xpozObESH8ptgMvnwDAlh9HgrF0s3DWZK4kzbcoQpAypvdWmpt/KQmPo7JDaJUeRM2sWFjem2SniVCtkwbM4AU3TyCzaowE67Yei4B8kBr+T/jesOemw6dX5JtPFrcRcBG/+ckdDL5Y7WobgGJA6Ne2r+1PY5bjAPI/kZL44I/nmq518Efejqvnp2gU1eXaBd4KTxA2FMyG59P51uMKaqZVpH/X+8wZ1aA5Jfk=</X509Certificate></X509Data></KeyInfo></Signature></ext:ExtensionContent>
+        </ext:UBLExtension>
+    </ext:UBLExtensions>
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID schemeAgencyName="PE:SUNAT">2.0</cbc:CustomizationID>
+    <cbc:ID>B002-4393</cbc:ID>
+    <cbc:IssueDate>2020-07-02</cbc:IssueDate>
+    <cbc:InvoiceTypeCode listAgencyName="PE:SUNAT" listID="0101" listName="Tipo de Documento" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion">03</cbc:InvoiceTypeCode>
+    <cbc:Note languageLocaleID="1000"><![CDATA[TREINTA CON 00/100 SOLES]]></cbc:Note>
+    <cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+    <cac:Signature>
+        <cbc:ID>SIGN_20431738806-03-B002-4393</cbc:ID>
+        <cac:SignatoryParty>
+            <cac:PartyIdentification>
+                <cbc:ID>20557103920</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name><![CDATA[ESCONTECH DEL PERÚ]]></cbc:Name>
+            </cac:PartyName>
+        </cac:SignatoryParty>
+        <cac:DigitalSignatureAttachment>
+            <cac:ExternalReference>
+                <cbc:URI>#SIGN_20431738806-03-B002-4393</cbc:URI>
+            </cac:ExternalReference>
+        </cac:DigitalSignatureAttachment>
+    </cac:Signature>
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20431738806</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:StreetName/>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName><![CDATA[ORG. DE SALUD INTERCONTINENTAL S.A.]]></cbc:RegistrationName>
+                <cac:RegistrationAddress>
+                    <cbc:AddressTypeCode>0003</cbc:AddressTypeCode>
+                    <cac:AddressLine>
+                        <cbc:Line><![CDATA[AV. DEL PINAR NRO. 198 URB. CHACARILLA LIMA - LIMA - SANTIAGO DE SURCO]]></cbc:Line>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country"><![CDATA[PE]]></cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:RegistrationAddress>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyIdentification>
+                <cbc:ID schemeAgencyName="PE:SUNAT" schemeID="1" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">45571574</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PostalAddress>
+                <cbc:StreetName/>
+            </cac:PostalAddress>
+            <cac:PartyLegalEntity>
+                <cbc:RegistrationName><![CDATA[Gutiérrez Ramos, Carlos Luis]]></cbc:RegistrationName>
+                <cac:RegistrationAddress>
+                    <cbc:CityName><![CDATA[Lima]]></cbc:CityName>
+                    <cbc:CountrySubentity><![CDATA[Lima]]></cbc:CountrySubentity>
+                    <cbc:District><![CDATA[San Miguel]]></cbc:District>
+                    <cac:AddressLine>
+                        <cbc:Line/>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                    </cac:Country>
+                </cac:RegistrationAddress>
+            </cac:PartyLegalEntity>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+    <cac:TaxTotal>
+        <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+        <cac:TaxSubtotal>
+            <cbc:TaxableAmount currencyID="PEN">25.42</cbc:TaxableAmount>
+            <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+            <cac:TaxCategory>
+                <cac:TaxScheme>
+                    <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                    <cbc:Name>IGV</cbc:Name>
+                    <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                </cac:TaxScheme>
+            </cac:TaxCategory>
+        </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="PEN">25.42</cbc:LineExtensionAmount>
+        <cbc:TaxInclusiveAmount currencyID="PEN">30.00</cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="PEN">30.00</cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="ZZ" unitCodeListAgencyName="United Nations Economic Commission for Europe" unitCodeListID="UN/ECE rec 20">1.00</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="PEN">25.42</cbc:LineExtensionAmount>
+        <cac:PricingReference>
+            <cac:AlternativeConditionPrice>
+                <cbc:PriceAmount currencyID="PEN">30.00</cbc:PriceAmount>
+                <cbc:PriceTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Precio" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+            </cac:AlternativeConditionPrice>
+        </cac:PricingReference>
+        <cac:TaxTotal>
+            <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+            <cac:TaxSubtotal>
+                <cbc:TaxableAmount currencyID="PEN">25.42</cbc:TaxableAmount>
+                <cbc:TaxAmount currencyID="PEN">4.58</cbc:TaxAmount>
+                <cac:TaxCategory>
+                    <cbc:Percent>18.00</cbc:Percent>
+                    <cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeAgencyName="PE:SUNAT" schemeName="Codigo de tributos" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">1000</cbc:ID>
+                        <cbc:Name>IGV</cbc:Name>
+                        <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                    </cac:TaxScheme>
+                </cac:TaxCategory>
+            </cac:TaxSubtotal>
+        </cac:TaxTotal>
+        <cac:Item>
+            <cbc:Description><![CDATA[Consulta Evaluación Medicina Alternativa (Deducible)]]></cbc:Description>
+            <cac:CommodityClassification>
+                <cbc:ItemClassificationCode listAgencyName="GS1 US" listID="UNSPSC" listName="Item Classification">85122201</cbc:ItemClassificationCode>
+            </cac:CommodityClassification>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="PEN">25.424</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+</Invoice>

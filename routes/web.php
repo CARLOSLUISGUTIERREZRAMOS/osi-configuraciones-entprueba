@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 }); 
+
+Route::get('/tedef', 'tedefController@crearArchivoTedef'); 
+Route::get('/tablauno', 'tedefController@crearCabeceraDocumentoFacturador'); 

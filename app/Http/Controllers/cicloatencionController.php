@@ -31,8 +31,8 @@ use App\Http\Controllers\Pdfs\imagenautorizacionController;
 
 class cicloatencionController extends Controller {
     
-    // public $pathImg =  'C:\\xampp7.3\\htdocs\\apiosi\\public\\atenciones\\';
-    public $pathImg =  '/home/centromedico/public_html/apiosi/public/atenciones/';
+    public $pathImg =  'C:\\xampp\\htdocs\\api\\public\\atenciones\\';
+    // public $pathImg =  '/home/centromedico/public_html/apiosi/public/atenciones/';
     // public $pathImg =  '/home/ositest/public_html/apiosi/public/atenciones/';
 
     public function __construct(Request $request) {

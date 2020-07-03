@@ -11,8 +11,8 @@ use Image;
 class empresaController extends Controller
 {
 
-    // public $pathImg =  'C:\\xampp7.3\\htdocs\\apiosi\\public\\img\\';
-    public $pathImg = '/home/centromedico/public_html/apiosi/public/img/';
+    public $pathImg =  'C:\\xampp\\htdocs\\api\\public\\img\\';
+    // public $pathImg = '/home/centromedico/public_html/apiosi/public/img/';
     // public $pathImg =  '/home/ositest/public_html/apiosi/public/img/';
 
     public function home($enterprise, Request $request)
@@ -200,8 +200,8 @@ class empresaController extends Controller
         $empresa = empresa::where('url', '=', $enterprise)->first();
 
         if (isset($request['directorio']) && !empty($request['directorio'])) {
-            // $this->pathImg = 'C:\\xampp7.3\\htdocs\\apiosi\\public\\' . $request['directorio'];
-            $this->pathImg = '/home/centromedico/public_html/apiosi/public/' . $request['directorio'];
+            $this->pathImg = 'C:\\xampp\\htdocs\\api\\public\\' . $request['directorio'];
+            // $this->pathImg = '/home/centromedico/public_html/apiosi/public/' . $request['directorio'];
             // $this->pathImg = '/home/ositest/public_html/apiosi/public/' . $request['directorio'];
 
             if ($request['directorio'] === 'img_autorizaciones') { 
@@ -259,8 +259,8 @@ class empresaController extends Controller
 
         $empresa = empresa::where('url', '=', $enterprise)->first();
 
-        // $this->pathImg = 'C:\\xampp7.3\\htdocs\\apiosi\\public\\' . $request['directorio'];
-        $this->pathImg = '/home/centromedico/public_html/apiosi/public/' . $request['directorio'];
+        $this->pathImg = 'C:\\xampp\\htdocs\\api\\public\\' . $request['directorio'];
+        // $this->pathImg = '/home/centromedico/public_html/apiosi/public/' . $request['directorio'];
         // $this->pathImg = '/home/ositest/public_html/apiosi/public/' . $request['directorio'];
 
         if ($empresa) {

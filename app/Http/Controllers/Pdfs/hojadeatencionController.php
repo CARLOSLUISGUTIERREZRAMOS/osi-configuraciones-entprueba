@@ -23,14 +23,14 @@ class PDF extends baseFpdf
     public $idcicloatencion;
     public $logo;
     public $path = 'https://sistemas.centromedicoosi.com/img/';  
-    // public $pathRubrica = 'http://lumenionic.pe/firmas_terapia';
-    public $pathRubrica = 'https://sistemas.centromedicoosi.com/apiosi/public/firmas_terapia';
+    public $pathRubrica = 'http://lumenionic.pe/firmas_terapia';
+    // public $pathRubrica = 'https://sistemas.centromedicoosi.com/apiosi/public/firmas_terapia';
     public $titulo = 'HOJA DE ATENCIÓN';
     public $previsualizacion = false;
     public $paciente = null;
 
-    // public $pathImg =  'C:\\xampp7.3\\htdocs\\apiosi\\public\\atenciones\\';
-    public $pathImg =  '/home/centromedico/public_html/apiosi/public/atenciones/';
+    public $pathImg =  'C:\\xampp\\htdocs\\api\\public\\atenciones\\';
+    // public $pathImg =  '/home/centromedico/public_html/apiosi/public/atenciones/';
     // public $pathImg =  '/home/ositest/public_html/apiosi/public/atenciones/';
     
     function Footer() 

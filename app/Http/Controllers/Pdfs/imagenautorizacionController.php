@@ -18,11 +18,11 @@ use App\Http\Controllers\Controller;
 class PDF2 extends baseFpdf 
 {    
     public $path = 'https://sistemas.centromedicoosi.com/img/';  
-    // public $pathRubrica = 'http://lumenionic.pe/img_autorizaciones';
-    public $pathRubrica = 'https://sistemas.centromedicoosi.com/apiosi/public/img_autorizaciones';
+    public $pathRubrica = 'http://lumenionic.pe/img_autorizaciones';
+    // public $pathRubrica = 'https://sistemas.centromedicoosi.com/apiosi/public/img_autorizaciones';
 
-    // public $pathImg =  'C:\\xampp7.3\\htdocs\\apiosi\\public\\atenciones\\';
-    public $pathImg =  '/home/centromedico/public_html/apiosi/public/atenciones/';
+    public $pathImg =  'C:\\xampp\\htdocs\\api\\public\\atenciones\\';
+    // public $pathImg =  '/home/centromedico/public_html/apiosi/public/atenciones/';
     // public $pathImg =  '/home/ositest/public_html/apiosi/public/atenciones/'; 
 }
 

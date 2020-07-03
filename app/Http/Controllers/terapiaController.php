@@ -949,7 +949,7 @@ class terapiaController extends Controller {
         } else {
             $terapistasfiltro = $terapistas;
         }
-        // $terapistasfiltro = $terapistas; 
+        $terapistasfiltro = $terapistas; 
 
         $listcombox = array(
             'ciclos' => $cicloatencion->grid($param, '', '', '', 'cicloatencion.fecha', 'DESC', TRUE, ['cicloatencion.idcicloatencion', 'presupuesto.montocredito', 'presupuesto.montoefectuado', 'paquete.nombre as nombrepaquete']),
